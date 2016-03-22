@@ -1,0 +1,61 @@
+/* Reset Styles */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* Global Classes */
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.relative { position: relative; }
+.none { display: none; }
+.block { display: block; }
+.inline { display: inline; }
+.clearfloat { height: 0; line-height: 1px; font-size: 0; clear: both; }
+.alignCenter { text-align: center; }
+.alignRight { text-align: right; }
+.nobullets { list-style: none; margin: 0; padding: 0; }
+
+/* Embeds */
+img, iframe, embed { max-width: 100%; }
+
+/* Structure */
+* { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+html { font-size: 16px; }
+.container { margin: 0 auto; width: 90%; }
+
+/* Clearfix */
+.clearfix:before, .clearfix:after, .row:before, .row:after { content: ""; display: table; }
+.clearfix:after, .row:after { clear: both; }
+.clearfix, .row { zoom: 1; }
+
+/* Buttons */
+.button { border-radius: 3px; padding: 8px 12px; text-align: center; text-decoration: none !important; font-weight: 600; font-size: 1rem; zoom: 1; cursor: pointer; border: 0; text-transform: uppercase; }
+.button.mini { padding: 5px 10px; font-size: .875rem; }
+.button.large { padding: 15px 20px; font-size: 1.125rem; }
+.button.pill { border-radius: 50em; padding: 10px 25px; }
+.button.square { border-radius: 0; }
+.button.block { padding-left: 0; padding-right: 0; }
+.teal { background: #1ea7be; color: #FFF !important; }
+.teal:hover { background: #2eb9d0; }
+.gray { background: #3e4b4f; color: #FFF !important; }
+.gray:hover { background: #556368; }
+.white { background: #FFF; color: #1ea7be !important; }
+
+/* Forms */
+input[type=date],input[type=email],input[type=password],input[type=tel],input[type=text],input[type=url],input[type=file],select,textarea{border-radius:3px;background:#fff;border:1px solid #CCC;padding:10px;width:100%;margin:0;font-size:1rem;color:#656565;}input[type=date].small,input[type=email].small,input[type=password].small,input[type=tel].small,input[type=text].small,input[type=url].small,input[type=file].small,select.small{width:150px}input[type=date]:focus,input[type=email]:focus,input[type=password]:focus,input[type=tel]:focus,input[type=text]:focus,input[type=url]:focus,input[type=file]:focus,select:focus,textarea:focus{border:1px solid #09F;outline:0;box-shadow:0 0 5px rgba(0,153,255,.5)}textarea{width:100%;height:100px}input[type=submit]{-webkit-appearance:none!important}
+
+/* Typography */
+ul{list-style:disc;margin:1.5rem}ul ul{list-style:circle}ol{list-style:decimal;margin:1.5rem}ol ol{list-style:lower-alpha}dl dd{margin-left:1.5rem}blockquote{margin:1.5rem}abbr,acronym{border-bottom:1px dotted #000;cursor:help}del{color:#000}b,dfn,dl dt,strong{font-weight:700}em,i{font-style:italic}sup{vertical-align:super}
+
+@media all and (min-width: 768px) {
+/* Globals */
+.floatLeft { float: left; }
+.floatRight { float: right; }
+
+/* Structure */
+.container { width: 96%; max-width: 1000px; }
+
+/* Grid */
+.eightcol,.elevencol,.fivecol,.fourcol,.ninecol,.onecol,.sevencol,.sixcol,.tencol,.threecol,.twocol{float:left;margin-right:2%}.last{margin-right:0}.onecol{width:6.5%}.twocol{width:15%}.threecol{width:23.5%}.fourcol{width:32%}.fivecol{width:40.5%}.sixcol{width:49%}.sevencol{width:57.5%}.eightcol{width:66%}.ninecol{width:74.5%}.tencol{width:83%}.elevencol{width:91.5%}.bump1{margin-right:10.5%}.bump2{margin-right:19%}.bump3{margin-right:27.5%}.bump4{margin-right:36%}.bump5{margin-right:44.5%}.bump6{margin-right:53%}
+
+/* Forms */
+input[type=date],input[type=email],input[type=password],input[type=tel],input[type=text],input[type=url],input[type=file],select{max-width:300px}input[type=date].small,input[type=email].small,input[type=password].small,input[type=tel].small,input[type=text].small,input[type=url].small,input[type=file].small,select.small{max-width:150px}
+}

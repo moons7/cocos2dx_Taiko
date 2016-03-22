@@ -1,0 +1,88 @@
+/************* CodeRay styles *************/
+.syntaxhl div {display: inline;}
+.syntaxhl .line-numbers { padding: 2px 4px 2px 4px; background-color: #eee; margin:0px 5px 0px 0px; }
+.syntaxhl .code pre { overflow: auto; font-family: Menlo, Consolas, "Liberation Mono", Courier, monospace; }
+.syntaxhl .debug { color:white ! important; background:blue ! important; }
+
+.syntaxhl .attribute-name { color:#b48 }
+.syntaxhl .annotation { color:#007 }
+.syntaxhl .attribute-value { color:#700 }
+.syntaxhl .binary { color:#2c2ecf }
+
+.syntaxhl .comment { color:#008425 }
+.syntaxhl .comment .char { color:#008425 }
+.syntaxhl .comment .delimiter { color:#008425 }
+
+.syntaxhl .char { color:#D20 }
+.syntaxhl .char .content { color:#D20 }
+.syntaxhl .char .delimiter { color:#710 }
+
+.syntaxhl .class { color:#4e8186; }
+.syntaxhl .complex { color:#A08 }
+.syntaxhl .constant { color:#036;}
+.syntaxhl .color { color:#000 }
+.syntaxhl .class-variable { color:#369 }
+.syntaxhl .decorator { color:#B0B }
+.syntaxhl .definition { color:#78482f;}
+.syntaxhl .directive { color:#088; }
+.syntaxhl .delimiter { color:black }
+.syntaxhl .doc { color:#970 }
+.syntaxhl .doctype { color:#34b }
+.syntaxhl .doc-string { color:#D42; }
+.syntaxhl .escape  { color:#666 }
+.syntaxhl .entity { color:#800;}
+.syntaxhl .error { color:#F00; }
+.syntaxhl .exception { color:#C00;}
+.syntaxhl .float { color:#2c2ecf }
+.syntaxhl .function { color:#31595d;}
+.syntaxhl .global-variable { color:#d70 }
+.syntaxhl .hex { color:#2c2ecf }
+.syntaxhl .integer  { color:#2c2ecf }
+.syntaxhl .include { color:#B44;}
+.syntaxhl .imaginary { color:#f00 }
+
+.syntaxhl .inline { color: black }
+.syntaxhl .inline-delimiter { color: #666 }
+
+.syntaxhl .instance-variable { color:#33B }
+.syntaxhl .label { color:#970; }
+.syntaxhl .local-variable { color:#963 }
+.syntaxhl .namespace { color:#707; }
+.syntaxhl .octal { color:#40E }
+.syntaxhl .operator { }
+.syntaxhl .predefined-constant { color:#069 }
+.syntaxhl .predefined { color:#369; }
+.syntaxhl .predefined-type { color:#bb2d9d;}
+.syntaxhl .preprocessor { color:#579 }
+.syntaxhl .pseudo-class { color:#00C; }
+.syntaxhl .reserved { color:#080;  }
+
+.syntaxhl .key .char { color: #bb2d9d }
+.syntaxhl .key .delimiter { color: #bb2d9d }
+.syntaxhl .key { color: #bb2d9d }
+.syntaxhl .keyword { color:#bb2d9d; }
+
+.syntaxhl .regexp .content { color:#808 }
+.syntaxhl .regexp .delimiter { color:#404 }
+.syntaxhl .regexp .modifier { color:#C2C }
+
+.syntaxhl .string .content { color: #c92c25 }
+.syntaxhl .string .char { color: #c92c25 }
+.syntaxhl .string .delimiter { color: #c92c25 }
+.syntaxhl .string .modifier { color: #c92c25 }
+
+.syntaxhl .shell .content { color:#2B2 }
+.syntaxhl .shell .delimiter { color:#161 }
+
+.syntaxhl .symbol { color:#A60 }
+.syntaxhl .symbol .content { color:#A60 }
+.syntaxhl .symbol .delimiter { color:#630 }
+
+.syntaxhl .tag { color:#070 }
+.syntaxhl .type { color:#339;}
+.syntaxhl .value { color: #088; }
+.syntaxhl .variable  { color:#037 }
+
+.syntaxhl .change { color: #bbf;}
+.syntaxhl .head { color: #f8f;}
+.syntaxhl .head .filename { color: white; }

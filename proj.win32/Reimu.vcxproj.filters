@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{68072560-cf9c-4a67-9872-2b2a821ac422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{c8a2f1b3-afcc-48cf-ad7a-fbda5a51d0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{3f61d9a4-7b6d-4370-8509-80063c96a223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\Ripple">
+      <UniqueIdentifier>{37d4cdd9-d447-425e-8d3b-f3cf72b69c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\PVEffect">
+      <UniqueIdentifier>{b0b40aae-da1b-4ada-b8f9-48a4f2e2d8e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\UVEffect">
+      <UniqueIdentifier>{8111e12f-0037-4505-bbc0-e3f73d714b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\ShaderSystem">
+      <UniqueIdentifier>{7bc85bc3-bd66-42b0-b865-0d40316639bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\MainScene">
+      <UniqueIdentifier>{08027fe9-f03a-4aed-98dc-764700e02094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\MainScene\JudegmentSystem">
+      <UniqueIdentifier>{fa685de5-aa06-4fae-894c-06bb4e4e7db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\MainScene\LyricsSystem">
+      <UniqueIdentifier>{f263aae5-ecc7-400a-b488-3f7f2fded840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\MainScene\ScrollSystem">
+      <UniqueIdentifier>{745feb8c-5339-48eb-8ed1-e2e7e4be6866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstract">
+      <UniqueIdentifier>{88558b0c-bb45-41de-b9be-fa8dc16b450e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstract\EventDriver">
+      <UniqueIdentifier>{3c3fc510-9a23-4f24-b2ed-4294b6ac242f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstract\PollManager">
+      <UniqueIdentifier>{b7b4ffd7-f390-493f-a423-0d839451691d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{2c625d37-7460-4087-be0b-16a483a630a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\AES">
+      <UniqueIdentifier>{8e9c6053-fd64-4615-a103-3573586f9516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\AccountScene">
+      <UniqueIdentifier>{422013ce-2bc7-4bb9-accf-d9a24077bd2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Static">
+      <UniqueIdentifier>{616e7870-c0a9-4a6a-ad46-3bed5c8793ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\DoorEffect">
+      <UniqueIdentifier>{3bc70482-1859-445a-83d0-ae7717cf77e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Untils">
+      <UniqueIdentifier>{0a8098d0-2650-41cc-8c87-41e497ab8270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{79ee681e-6e49-4976-a31a-3b7622f8517b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\MainScene">
+      <UniqueIdentifier>{81fd8a8e-b6b8-452c-8e2f-af9daf95c2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\MainScene\Lyrics">
+      <UniqueIdentifier>{3c25c226-01d0-46a8-9ff1-aa62b7c167c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\MainScene\DrumSurface">
+      <UniqueIdentifier>{a266de3b-022f-4eec-8652-006396169f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\MainScene\Layer">
+      <UniqueIdentifier>{8301497b-2d47-4b91-9f59-ea2460873227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\AccountScene">
+      <UniqueIdentifier>{45215191-1f92-4f07-8ece-813654ffa5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\AccountScene\Layer">
+      <UniqueIdentifier>{0d2a6d75-64ca-43e4-8077-2e2479290737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\MainScene\testEventDriverSystem">
+      <UniqueIdentifier>{d09c32a2-bbcf-4f0d-826d-abae047d9518}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\AccountScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\DrumSurfaceLoader.cpp">
+      <Filter>Data\MainScene\DrumSurface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\LyricslableLoader.cpp">
+      <Filter>Data\MainScene\Lyrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effect\PVEffectSprite.cpp">
+      <Filter>Effect\PVEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effect\RippleEffectSprite.cpp">
+      <Filter>Effect\Ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effect\UVEffectSprite.cpp">
+      <Filter>Effect\UVEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\System\JudgeSystem.cpp">
+      <Filter>System\MainScene\JudegmentSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\System\LyricsSystem.cpp">
+      <Filter>System\MainScene\LyricsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\System\ScrollSystem.cpp">
+      <Filter>System\MainScene\ScrollSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\System\ShaderSystem.cpp">
+      <Filter>System\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MenuScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\aes.c">
+      <Filter>tools\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\AESTool.cpp">
+      <Filter>tools\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\System\AccountSystem.cpp">
+      <Filter>System\AccountScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\BackGroundLayer.cpp">
+      <Filter>Data\MainScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\UILayer.cpp">
+      <Filter>Data\MainScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\MainLayer.cpp">
+      <Filter>Data\MainScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\AccountSceneMainLayer.cpp">
+      <Filter>Data\AccountScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Static\PlayStatusStatic.cpp">
+      <Filter>Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\DataEntityPool.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\System\SystemEntityPool.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effect\DoorEffectSprite.cpp">
+      <Filter>Effect\DoorEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MainScene.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\System\testSystem.cpp">
+      <Filter>System\MainScene\testEventDriverSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\MainScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\AccountScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\DrumSurfaceLoader.h">
+      <Filter>Data\MainScene\DrumSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\LyricslableLoader.h">
+      <Filter>Data\MainScene\Lyrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effect\PVEffectSprite.h">
+      <Filter>Effect\PVEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effect\RippleEffectSprite.h">
+      <Filter>Effect\Ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effect\UVEffectSprite.h">
+      <Filter>Effect\UVEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\JudgeSystem.h">
+      <Filter>System\MainScene\JudegmentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\LyricsSystem.h">
+      <Filter>System\MainScene\LyricsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\ScrollSystem.h">
+      <Filter>System\MainScene\ScrollSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\ShaderSystem.h">
+      <Filter>System\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameDefine.h" />
+    <ClInclude Include="..\Classes\Scene\MenuScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Abstract\AbstractEventListener.h">
+      <Filter>Abstract\EventDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Abstract\AbstractPollEntity.h">
+      <Filter>Abstract\PollManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\aes.h">
+      <Filter>tools\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\AESTool.h">
+      <Filter>tools\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\AccountSystem.h">
+      <Filter>System\AccountScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\BackGroundLayer.h">
+      <Filter>Data\MainScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\UILayer.h">
+      <Filter>Data\MainScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\MainLayer.h">
+      <Filter>Data\MainScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Abstract\AbstractEventDispatcher.inl">
+      <Filter>Abstract\EventDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Abstract\AbstractPollManager.inl">
+      <Filter>Abstract\PollManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameConst.h" />
+    <ClInclude Include="..\Classes\Data\AccountSceneMainLayer.h">
+      <Filter>Data\AccountScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Static\PlayStatusStatic.h">
+      <Filter>Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\DataEntityPool.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\SystemEntityPool.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effect\DoorEffectSprite.h">
+      <Filter>Effect\DoorEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Untils\RandomUntil.inl">
+      <Filter>Untils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\testSystem.h">
+      <Filter>System\MainScene\testEventDriverSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\testSystemEvent.h">
+      <Filter>System\MainScene\testEventDriverSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Abstract\AbstractEvent.h">
+      <Filter>Abstract\EventDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\System\testEventDispatcher.h">
+      <Filter>System\MainScene\testEventDriverSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
